@@ -1,0 +1,66 @@
+
+body{
+    background-color: coral;
+    border: 4px solid black;
+    margin: 20px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+
+.head{
+    color: darkblue;
+}
+
+
+#bglime{
+    background-color: lightgreen;
+}
+
+#bglime{
+    color: darkblue;
+}
+
+/* Make only the word "head" blue inside h2 */
+#bglime span{
+    color: red;
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+
+#para{
+    color: green;
+}
+
+#para span{
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+a{
+    color: yellow;
+    text-decoration: underline;
+}
+
+ul li:first-child{
+    color: white;
+}
+
+ul li:last-child{
+    color: white;
+}
+
+ol li:nth-child(2){
+    color: blue;
+}
+
+ol li:nth-child(3){
+    color: red;
+}
